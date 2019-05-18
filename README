@@ -1,0 +1,15 @@
+
+Compile:
+
+	# make
+
+Run:
+	# ./bintree data/in.10 out.10.dot
+
+
+Convert dot file to png graph:
+
+	You need to install graphviz for dot support.
+
+	# dot -Tpng out.10.dot -o out.10.png
+
